@@ -10,6 +10,20 @@ public class Book {
     private int price;
     private String typeOfBind;
 
+    public Book() {
+    }
+
+    public Book(int id, String name, String author, String publisher, int year, int numberOfPages, int price, String typeOfBind) {
+        this.id = id;
+        this.name = name;
+        this.author = author;
+        this.publisher = publisher;
+        this.year = year;
+        this.numberOfPages = numberOfPages;
+        this.price = price;
+        this.typeOfBind = typeOfBind;
+    }
+
     public int getId() {
         return id;
     }
